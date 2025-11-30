@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - proyecto Integrador</title>
+    <link rel="stylesheet" href="styles.css?v=3.2">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Personajes de Rick and Morty</h1>
+        <form class="search-form" id="search-form">
+            <input type="text" id="search-input" placeholder="Buscar personaje...">
+            <button type="submit">Buscar</button>
+        </form>
+        <label class="theme-switcher">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </header>
+
+    <main class="container">
+        <section id="characters-container">
+            <!-- Las tarjetas de los personajes -->
+        </section>
+        <div class="pagination">
+            <button id="prev-page">Anterior</button>
+            <span id="page-info">Página 1</span>
+            <button id="next-page">Siguiente</button>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>Proyecto Integrador - Juan Pablo Barragan Cortes</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
